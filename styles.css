@@ -13,7 +13,7 @@ body {
   padding: 0;
   margin: 0;
 
-  background-color: beige;
+  background-color: rgb(255, 254, 236);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   box-sizing: border-box;
@@ -69,7 +69,9 @@ body {
   flex-direction: column;
   align-items: stretch;
 
-  background-color: inherit;
+  /* background-color: inherit; */
+  background-color: rgb(2, 2, 53);
+  color: azure;
   border-radius: 2rem;
   box-sizing: border-box;
   padding: 2vw;
@@ -79,8 +81,10 @@ body {
 .topText {
   display: flex;
   flex-direction: column;
-  gap: 4vh;
-  margin-bottom: 3vh;
+  gap: 3vh;
+  font-weight: 200;
+  line-height: 120%;
+  /* margin-bottom: 3vh; */
   font-size: 20px;
 }
 
@@ -112,12 +116,13 @@ legend {
   box-sizing: border-box;
   justify-items: flex-start;
   height: 100%;
+  gap:10%;
 }
 label {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  gap: 7px;
+  width: 45%;
+  gap: 2px;
   font-size: 1rem;
 }
 
@@ -149,18 +154,19 @@ input:focus::placeholder {
   color: transparent;
 }
 input::placeholder {
-  opacity: 60%;
+  opacity: 50%;
   transition: color 0.3s ease;
 }
 
 button {
   color: white;
   font-size: 1vw;
-  padding: 5px;
+  padding: 10px 5px;
   border-radius: 10px;
   background-color: rgb(2, 161, 235);
   width: 13vw;
-  margin-top: 3vh;
+  outline:none;
+  text-decoration: none;
 }
 button:hover {
   color: black;
@@ -168,18 +174,19 @@ button:hover {
 }
 
 .login {
-  margin-top: 3vh;
+  margin-top: 6vh;
   font-size: 16px;
 }
 .login a {
   text-decoration: none;
-  color: blue;
+  color: rgb(211, 159, 0);
   font-weight: 600;
 }
 .login a:hover {
-  color: rgb(2, 2, 138);
+  color: rgb(255, 200, 0);
 }
 
 input:focus {
   border-bottom: 1px solid greenyellow;
 }
+ input:focus::

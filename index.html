@@ -24,29 +24,29 @@
                     <legend>Let's Do This</legend>
                     <div class="info">
                         <label for="first_name">First Name
-                        <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+                        <input type="text" id="first_name" name="first_name" placeholder="First Name" required minlength="2" maxlength="10">
                         </label>
                         
                         <label for="last_name">Last Name
-                        <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+                        <input type="text" id="last_name" name="last_name" placeholder="Last Name" required minlength="2" maxlength="10">
                         </label>
 
                         <label for="user_email">Email
-                        <input type="email" id="user_email" name="user_email"placeholder=xyz@gmail.com required>
+                        <input type="email" id="user_email" name="user_email"placeholder=xyz@gmail.com required minlength="4">
                         </label>
                         
                         <label for="user_number">Phone Number
-                        <input type="number" id="user_number" name="user_number" placeholder="Phone Number" required>
+                        <input type="number" id="user_number" name="user_number" placeholder="Phone Number" required minlength="10">
                         </label>
 
                         <label for="pwd">Password
-                        <input type="password" id="pwd" name="pwd" placeholder="Enter Password" required>
+                        <input type="password" id="pwd" name="pwd" placeholder="Enter Password" required minlength="8">
                         </label>
                         
                         <label for="cnfpwd">Confirm Password
-                        <input type="password" id="cnfpwd" name="cnfpwd" placeholder="Confirm Password" required>
+                        <input type="password" id="cnfpwd" name="cnfpwd" placeholder="Confirm Password" required minlength="8" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
                         </label>
-                        <button type="reset">Create Account</button>
+                        <button type="submit">Create Account</button>
                     </div>
                     </form>
             <div class="login">
