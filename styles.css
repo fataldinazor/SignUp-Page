@@ -13,7 +13,7 @@ body {
   padding: 0;
   margin: 0;
 
-  background-color: rgb(255, 254, 236);
+  background-color: rgba(255, 255, 255, 0.681)55);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   box-sizing: border-box;
@@ -27,7 +27,7 @@ body {
   background-position: center right;
   border-radius: 0px 30px 30px 0px;
   display: flex;
-  box-shadow: ;
+  box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.385);
 }
 .container {
   display: flex;
@@ -40,7 +40,6 @@ body {
   color: white;
   background-color: rgba(0, 0, 0, 0.384);
   top: 65vh;
-  /* font-family: 'Orbitron',sans-serif; */
   text-transform: uppercase;
   font-size: 2vw;
 }
@@ -58,73 +57,53 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color:aliceblue
 }
 
 .rightCtn {
-  /* outline:1px solid red; */
-  height: 85vh;
-  width: 55vw;
-  display: flex;
-  flex-shrink: 0;
-  flex-direction: column;
-  align-items: stretch;
+  background-color: rgb(9, 2, 47);
+  width:55vw;
 
-  /* background-color: inherit; */
-  background-color: rgb(2, 2, 53);
-  color: azure;
-  border-radius: 2rem;
   box-sizing: border-box;
-  padding: 2vw;
-  overflow: hidden;
+  padding:2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between ;
+
+  border-radius: 20px;
+
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.416);
 }
 
 .topText {
+  margin-bottom:30px ;
+  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
-  gap: 3vh;
-  font-weight: 200;
-  line-height: 120%;
-  /* margin-bottom: 3vh; */
-  font-size: 20px;
+  gap:2.5vh;
 }
 
 form {
-  /* outline: 1px solid red; */
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  box-sizing: border-box;
-  padding: 20px 40px;
-  height: 100%;
-  background-color: rgb(2, 2, 53);
-  color: white;
-  border-radius: 10px;
+  padding:10px 3vw;
 }
 
 legend {
-  display: block;
-  margin-bottom: 2vh;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom:20px;
 }
 
 .info {
-  /* outline: 1px solid red; */
   display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
   justify-content: space-between;
-  align-items: space-between;
-  height: 100%;
-  gap:8%;
+  flex-wrap: wrap;
+  gap:20px;
+  height:100% 
 }
 label {
-  display: flex;
+  display:flex;
   flex-direction: column;
-  width: 45%;
-  gap: 2px;
-  font-size: 1rem;
+  flex-wrap: wrap;
 }
 
 input,
@@ -135,7 +114,6 @@ select {
 }
 
 input {
-  /* border-radius: 10px; */
   color: white;
   border: none;
   appearance: none;
@@ -176,7 +154,7 @@ button:hover {
 }
 
 .login {
-  margin-top: 6vh;
+  margin-top: 3vh;
   font-size: 16px;
 }
 .login a {
